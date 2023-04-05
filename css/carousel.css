@@ -1,0 +1,28 @@
+.owl-carousel{
+    margin-top: 2rem;
+}
+.owl-nav,.owl-dots{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2rem;
+}
+.owl-dots{
+    margin-top: 1rem;
+    gap: .5rem;
+}
+div .owl-carousel .owl-nav button.owl-next, div .owl-carousel .owl-nav button.owl-prev {
+    background-color: rgb(255, 193, 223) !important;
+    padding:  .3rem .8rem !important;
+    margin-top: 1rem;
+}
+div .owl-carousel button.owl-dot {
+    background-color: #ccc !important;
+    padding: .3rem !important;
+    border-radius: 50%;
+}
+div .owl-carousel button.owl-dot.active{
+    background-color: rgb(255, 193, 223) !important;
+
+}
